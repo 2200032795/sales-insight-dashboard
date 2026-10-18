@@ -1,0 +1,54 @@
+OrderID,OrderDate,CustomerName,City,Category,ProductName,Quantity,UnitPriceINR,UnitCostINR,OrderStatus,SalesChannel,RevenueINR,ProfitINR
+ORD-1001,2025-01-04,Ananya Rao,Hyderabad,Electronics,Wireless Mouse,2,799,420,Completed,Online,1598,758
+ORD-1002,2025-01-08,Rahul Sharma,Vijayawada,Home & Kitchen,Insulated Bottle,3,499,210,Completed,Store,1497,867
+ORD-1003,2025-01-12,Meera Nair,Khammam,Office Supplies,Notebook Set,5,249,100,Completed,Online,1245,745
+ORD-1004,2025-01-18,Arjun Reddy,Warangal,Electronics,USB-C Hub,1,1899,950,Returned,Online,1899,949
+ORD-1005,2025-01-25,Sana Khan,Hyderabad,Home & Kitchen,Desk Lamp,2,1299,620,Completed,Store,2598,1358
+ORD-1006,2025-02-03,Kiran Kumar,Guntur,Office Supplies,Gel Pen Pack,4,199,80,Completed,Online,796,476
+ORD-1007,2025-02-09,Priya Das,Khammam,Electronics,Bluetooth Speaker,1,2499,1100,Completed,Online,2499,1399
+ORD-1008,2025-02-14,Vikram Singh,Hyderabad,Home & Kitchen,Storage Organizer,3,699,300,Pending,Store,2097,1197
+ORD-1009,2025-02-21,Divya Patel,Nellore,Office Supplies,A4 Paper Ream,6,299,120,Completed,Online,1794,1074
+ORD-1010,2025-02-27,Nikhil Verma,Warangal,Electronics,Keyboard,2,1499,700,Completed,Store,2998,1598
+ORD-1011,2025-03-02,Aisha Begum,Vijayawada,Home & Kitchen,Ceramic Mug Set,2,899,390,Completed,Online,1798,1018
+ORD-1012,2025-03-07,Sai Teja,Hyderabad,Electronics,Webcam,1,2199,900,Completed,Online,2199,1299
+ORD-1013,2025-03-13,Lakshmi Devi,Khammam,Office Supplies,Desk Organizer,2,599,240,Cancelled,Store,1198,718
+ORD-1014,2025-03-19,Rohit Jain,Guntur,Home & Kitchen,Electric Kettle,1,1799,780,Completed,Online,1799,1019
+ORD-1015,2025-03-28,Pooja Iyer,Nellore,Electronics,Power Bank,3,999,430,Completed,Store,2997,1707
+ORD-1016,2025-04-05,Manoj Rao,Warangal,Office Supplies,Printer Paper Pack,4,349,130,Completed,Online,1396,876
+ORD-1017,2025-04-11,Keerthi Reddy,Hyderabad,Home & Kitchen,Bedside Table,1,3299,1250,Completed,Store,3299,2049
+ORD-1018,2025-04-16,Imran Ali,Vijayawada,Electronics,Wireless Earbuds,2,1999,800,Completed,Online,3998,2398
+ORD-1019,2025-04-22,Sravya K,Khammam,Office Supplies,Sticky Notes Pack,5,149,55,Pending,Online,745,470
+ORD-1020,2025-04-29,Aditya Bose,Guntur,Home & Kitchen,Air Fryer,1,5499,2100,Completed,Store,5499,3399
+ORD-1021,2025-05-03,Nandini Rao,Nellore,Electronics,Smart Watch,1,3999,1500,Completed,Online,3999,2499
+ORD-1022,2025-05-09,Harish Babu,Hyderabad,Office Supplies,Calculator,2,699,270,Completed,Store,1398,858
+ORD-1023,2025-05-15,Fatima Noor,Warangal,Home & Kitchen,Cookware Set,1,2899,1100,Returned,Online,2899,1799
+ORD-1024,2025-05-23,Vamsi Krishna,Vijayawada,Electronics,Monitor Stand,2,1199,480,Completed,Store,2398,1438
+ORD-1025,2025-06-02,Sneha Paul,Khammam,Office Supplies,File Folder Set,3,399,145,Completed,Online,1197,762
+ORD-1026,2025-06-08,Abhinav Rao,Hyderabad,Electronics,Mechanical Keyboard,1,3299,1300,Completed,Online,3299,1999
+ORD-1027,2025-06-14,Madhavi S,Guntur,Home & Kitchen,Mixer Grinder,1,3799,1450,Completed,Store,3799,2349
+ORD-1028,2025-06-20,Zoya Ahmed,Nellore,Office Supplies,Whiteboard Marker Set,4,249,95,Cancelled,Online,996,616
+ORD-1029,2025-06-26,Tarun Reddy,Warangal,Electronics,Laptop Sleeve,2,899,350,Completed,Store,1798,1098
+ORD-1030,2025-07-04,Anil Kumar,Vijayawada,Home & Kitchen,Water Purifier Jug,2,1499,580,Completed,Online,2998,1838
+ORD-1031,2025-07-10,Mounika R,Hyderabad,Electronics,Portable SSD,1,5999,1900,Completed,Online,5999,4099
+ORD-1032,2025-07-16,Siddharth Das,Khammam,Office Supplies,Stapler Set,3,299,110,Completed,Store,897,567
+ORD-1033,2025-07-22,Ritika Jain,Guntur,Home & Kitchen,Vacuum Flask,2,799,320,Pending,Online,1598,958
+ORD-1034,2025-08-01,Pranav Shah,Nellore,Electronics,Gaming Mouse,1,2299,950,Completed,Online,2299,1349
+ORD-1035,2025-08-07,Sowmya Devi,Warangal,Office Supplies,Desk Calendar,2,199,70,Completed,Store,398,258
+ORD-1036,2025-08-13,Faizan Khan,Hyderabad,Home & Kitchen,Toaster,1,1599,620,Completed,Online,1599,979
+ORD-1037,2025-08-19,Harini P,Vijayawada,Electronics,HDMI Adapter,3,599,230,Completed,Store,1797,1107
+ORD-1038,2025-08-27,Tejaswi M,Khammam,Office Supplies,Highlighter Set,4,179,65,Completed,Online,716,456
+ORD-1039,2025-09-03,Varun Nair,Guntur,Home & Kitchen,Air Cooler,1,6999,2300,Completed,Store,6999,4699
+ORD-1040,2025-09-09,Bhavana Rao,Hyderabad,Electronics,Router,1,2799,1050,Completed,Online,2799,1749
+ORD-1041,2025-09-15,Naveen R,Nellore,Office Supplies,Paper Clips Box,6,99,35,Completed,Store,594,384
+ORD-1042,2025-09-21,Ishita Sen,Warangal,Home & Kitchen,Storage Rack,1,2499,900,Returned,Online,2499,1599
+ORD-1043,2025-10-02,Karthik M,Vijayawada,Electronics,Webcam,2,2199,900,Completed,Online,4398,2598
+ORD-1044,2025-10-08,Sanjana P,Khammam,Office Supplies,Planner Notebook,3,349,140,Completed,Store,1047,627
+ORD-1045,2025-10-14,Deepak Reddy,Hyderabad,Home & Kitchen,Rice Cooker,1,2699,1050,Completed,Online,2699,1649
+ORD-1046,2025-10-20,Rhea Kapoor,Guntur,Electronics,Bluetooth Speaker,2,2499,1100,Pending,Store,4998,2798
+ORD-1047,2025-11-04,Chaitanya Rao,Warangal,Office Supplies,Ink Cartridge,1,1499,520,Completed,Online,1499,979
+ORD-1048,2025-11-12,Sakshi Verma,Hyderabad,Home & Kitchen,Food Storage Set,3,599,240,Completed,Store,1797,1077
+ORD-1049,2025-11-19,Gautham K,Nellore,Electronics,Power Bank,2,999,430,Completed,Online,1998,1138
+ORD-1050,2025-12-03,Neha Sharma,Vijayawada,Home & Kitchen,Electric Kettle,2,1799,780,Completed,Online,3598,2038
+ORD-1051,2025-12-11,Suresh B,Khammam,Electronics,USB-C Hub,1,1899,950,Completed,Store,1899,949
+ORD-1052,2025-12-18,Aarohi D,Hyderabad,Office Supplies,Notebook Set,4,249,100,Completed,Online,996,596
+ORD-1053,2025-12-26,Ramesh P,Guntur,Home & Kitchen,Desk Lamp,1,1299,620,Completed,Store,1299,679

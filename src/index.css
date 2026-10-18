@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@plugin "@tailwindcss/typography";
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+  --font-sans: var(--app-font-sans);
+  --font-serif: var(--app-font-serif);
+  --radius-lg: var(--radius);
+}
+
+:root {
+  --background: 42 44% 94%;
+  --foreground: 24 27% 25%;
+  --card: 42 44% 98%;
+  --card-foreground: 24 27% 25%;
+  --popover: 42 44% 98%;
+  --popover-foreground: 24 27% 25%;
+  --primary: 24 27% 25%;
+  --primary-foreground: 42 44% 97%;
+  --secondary: 82 16% 72%;
+  --secondary-foreground: 24 27% 25%;
+  --muted: 38 24% 89%;
+  --muted-foreground: 27 12% 48%;
+  --accent: 33 47% 70%;
+  --accent-foreground: 24 27% 25%;
+  --destructive: 2 51% 48%;
+  --destructive-foreground: 42 44% 98%;
+  --border: 35 22% 83%;
+  --input: 35 22% 83%;
+  --ring: 24 27% 34%;
+  --chart-1: 24 27% 25%;
+  --chart-2: 82 16% 55%;
+  --chart-3: 33 47% 60%;
+  --chart-4: 15 37% 55%;
+  --chart-5: 190 17% 49%;
+  --app-font-sans: 'DM Sans', sans-serif;
+  --app-font-serif: 'Playfair Display', Georgia, serif;
+  --app-font-mono: 'DM Sans', sans-serif;
+  --radius: 1rem;
+}
+.dark {
+  --background: 25 20% 14%;
+  --foreground: 42 34% 92%;
+  --card: 25 19% 19%;
+  --card-foreground: 42 34% 92%;
+  --popover: 25 19% 19%;
+  --popover-foreground: 42 34% 92%;
+  --primary: 35 47% 72%;
+  --primary-foreground: 25 20% 14%;
+  --secondary: 82 15% 38%;
+  --secondary-foreground: 42 34% 92%;
+  --muted: 25 16% 25%;
+  --muted-foreground: 37 16% 70%;
+  --accent: 33 36% 46%;
+  --accent-foreground: 42 34% 92%;
+  --destructive: 2 48% 58%;
+  --destructive-foreground: 25 20% 14%;
+  --border: 25 14% 31%;
+  --input: 25 14% 31%;
+  --ring: 35 47% 72%;
+  --chart-1: 35 47% 72%;
+  --chart-2: 82 25% 62%;
+  --chart-3: 33 55% 68%;
+  --chart-4: 15 45% 65%;
+  --chart-5: 190 28% 65%;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #F7F2E8;
+  color: #513B2F;
+  font-family: var(--app-font-sans);
+  font-feature-settings: "ss01" on;
+  -webkit-font-smoothing: antialiased;
+}
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+.font-display { font-family: var(--app-font-serif); }
+.panel {
+  border: 1px solid rgba(81,59,47,.11);
+  background: rgba(255,253,248,.82);
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(67,49,37,.045);
+}
+.quiet-grid {
+  background-image: linear-gradient(rgba(81,59,47,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(81,59,47,.035) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+.page-enter { animation: rise-in .42s cubic-bezier(.2,.75,.25,1) both; }
+.filter-control {
+  min-height: 36px;
+  max-width: 190px;
+  border: 1px solid rgba(81,59,47,.15);
+  border-radius: 9px;
+  background: #FBF8F1;
+  padding: 0 10px;
+  color: #594538;
+  font-size: 11px;
+  outline: none;
+  transition: border-color .18s ease, background .18s ease;
+}
+.filter-control:focus { border-color: #879475; background: #fffdf8; }
+.filter-control option { color: #513B2F; }
+@keyframes rise-in { from { opacity:0; transform:translateY(8px) } to { opacity:1; transform:translateY(0) } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration:.01ms !important; transition-duration:.01ms !important; } }
